@@ -10,7 +10,3 @@ Modification: package and import names are prefixed with `jp.ni10.ikiriframe.col
 to avoid collisions. The algorithms are unchanged. Copyright and license
 headers are retained in each file; the full license is in
 `app/src/main/assets/licenses/Apache-2.0.txt`.
-
-This standalone source provides the public scheme variants that the Material
-Components content-based theme API does not expose. The application uses the
-2021 color specification, phone platform, and standard contrast level.

@@ -40,8 +40,8 @@ App icon foreground (U+1F929, star-struck): Noto 3D Emoji, Google LLC.
 Source: https://github.com/googlefonts/noto-emoji/tree/main/3D
 Image resources are licensed under Apache License 2.0 according to the
 upstream README: https://github.com/googlefonts/noto-emoji#license
-The project owner supplied the PNG from this repository. The emoji artwork
-is retained; launcher variants resize it and composite it over a rainbow.
+The emoji artwork is retained; launcher variants resize it and composite it
+over a rainbow background.
 See Apache-2.0.txt for the license text.
 
 Themed monochrome app icon: outlined from the Noto Emoji font, Google LLC.
@@ -49,10 +49,6 @@ Source: https://fonts.google.com/noto/specimen/Noto+Emoji
 Font license: SIL Open Font License 1.1 (see NotoEmoji-OFL.txt).
 Changes: converted the U+1F929 glyph to SVG outlines, then to Android
 VectorDrawable paths, with launcher sizing and positioning adjustments.
-
-The rainbow app icon background was generated with Python using ChatGPT,
-as reported by the project owner. Its HSV saturation and value are 100%.
-Original source icon assets remain in the project root.
 
 Home 3D emoji: Star-Struck Emoji - Star Eyes - Free Sample, by mtmediaofficial.
 Source: https://www.cgtrader.com/free-3d-models/character/other/star-struck-emoji-star-eyes-free-sample
