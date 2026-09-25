@@ -1,0 +1,14 @@
+<resources>
+    <style name="ThemeOverlay.IkiriFrame.Dialog" parent="">
+        <item name="android:windowClipToOutline">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Theme.IkiriFrame" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@android:color/system_neutral1_100</item>
+        <item name="android:windowSplashScreenBackground">@android:color/system_neutral1_100</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+    </style>
+</resources>

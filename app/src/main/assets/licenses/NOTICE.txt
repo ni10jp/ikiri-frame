@@ -1,0 +1,66 @@
+Mochiy Pop One and Google Sans Flex: SIL Open Font License 1.1.
+See the accompanying OFL files.
+
+Material Symbols (upload, add, delete, check, check_circle: Rounded, weight 600; info: Rounded, weight 400) and Material icons
+(arrow_back, check, close, settings, chevron_right): Copyright Google. Apache License 2.0.
+https://github.com/google/material-design-icons
+https://www.apache.org/licenses/LICENSE-2.0
+
+Material Color Utilities: Copyright Google LLC. Apache License 2.0.
+https://github.com/material-foundation/material-color-utilities
+Java source pinned to commit 5b3618b16fdc3825e21d5679bafd144662088ea1.
+Changes: package/import names relocated under jp.ni10.ikiriframe.color;
+color algorithms are unchanged. See Apache-2.0.txt for the license text.
+
+AndroidSVG: Copyright Paul LeBeau. Apache License 2.0.
+https://bigbadaboom.github.io/androidsvg/
+
+Compose Shimmer: Copyright Valentin Ilk. Apache License 2.0.
+https://github.com/valentinilk/compose-shimmer
+See Apache-2.0.txt for the license text.
+
+Telephoto 0.19.0: Copyright Saket Narayan. Apache License 2.0.
+https://github.com/saket/telephoto
+See Apache-2.0.txt for the license text.
+
+Coil 3.4.0: Copyright Coil Contributors. Apache License 2.0.
+https://github.com/coil-kt/coil/tree/3.4.0
+Used for image decoding and EXIF orientation on Android 7/8.
+See Apache-2.0.txt for the license text.
+
+OpenJDK desugar_jdk_libs 2.1.5: Copyright Oracle and/or its affiliates,
+Google LLC and other OpenJDK contributors. GPL version 2 with the Classpath Exception.
+https://github.com/google/desugar_jdk_libs
+Unmodified library, processed by Android's standard core-library desugaring.
+Corresponding source: https://github.com/google/desugar_jdk_libs/tree/73170c3
+See DesugarJdkLibs-GPL-2.0-with-Classpath-Exception.txt and
+DesugarJdkLibs-Assembly-Exception.txt for the license texts.
+
+App icon foreground (U+1F929, star-struck): Noto 3D Emoji, Google LLC.
+Source: https://github.com/googlefonts/noto-emoji/tree/main/3D
+Image resources are licensed under Apache License 2.0 according to the
+upstream README: https://github.com/googlefonts/noto-emoji#license
+The project owner supplied the PNG from this repository. The emoji artwork
+is retained; launcher variants resize it and composite it over a rainbow.
+See Apache-2.0.txt for the license text.
+
+Themed monochrome app icon: outlined from the Noto Emoji font, Google LLC.
+Source: https://fonts.google.com/noto/specimen/Noto+Emoji
+Font license: SIL Open Font License 1.1 (see NotoEmoji-OFL.txt).
+Changes: converted the U+1F929 glyph to SVG outlines, then to Android
+VectorDrawable paths, with launcher sizing and positioning adjustments.
+
+The rainbow app icon background was generated with Python using ChatGPT,
+as reported by the project owner. Its HSV saturation and value are 100%.
+Original source icon assets remain in the project root.
+
+Home 3D emoji: Star-Struck Emoji - Star Eyes - Free Sample, by mtmediaofficial.
+Source: https://www.cgtrader.com/free-3d-models/character/other/star-struck-emoji-star-eyes-free-sample
+License: CGTrader Royalty Free License (no AI).
+https://help.cgtrader.com/hc/en-us/articles/360015124437-Royalty-Free-License
+Changes: star-eye base color changed to red; model centered and uniformly scaled
+for the spherical collider, then converted into the application's mesh format.
+The original geometry, normals and non-eye material colors are retained.
+Original files and modified standalone model data are excluded from the public
+source archive. The model remains separately licensed and may not be redistributed
+as a standalone asset. It is incorporated into the application for display.

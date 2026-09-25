@@ -1,0 +1,12 @@
+<resources>
+    <style name="ThemeOverlay.IkiriFrame.Dialog" parent="">
+        <item name="android:windowClipToOutline">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    <style name="Theme.IkiriFrame" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">#FFF3EDF7</item>
+    </style>
+</resources>

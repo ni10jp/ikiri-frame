@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.IkiriFrame" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowBackground">@android:color/system_neutral1_900</item>
+        <item name="android:windowSplashScreenBackground">@android:color/system_neutral1_900</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+    </style>
+</resources>

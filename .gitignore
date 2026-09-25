@@ -1,0 +1,41 @@
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.iml
+.DS_Store
+captures/
+dist/
+
+# Local screenshots, recordings, logs, and distribution planning.
+/docs/qa/
+/docs/direct-distribution.md
+*.log
+*.hprof
+
+# Local credentials and signing material.
+.env
+.env.*
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+key.properties
+keystore.properties
+signing.properties
+
+# Distribute built packages separately from the source repository.
+*.apk
+*.aab
+
+# Separately licensed CGTrader model: local inputs and derivatives, not public source.
+/StarEyes.*
+/assets/home-emoji/*.obj
+/assets/home-emoji/*.mtl
+/assets/home-emoji/*.glb
+/assets/home-emoji/*.blend
+/assets/home-emoji/*.blend1
+/app/src/main/assets/models/star-struck.mesh
