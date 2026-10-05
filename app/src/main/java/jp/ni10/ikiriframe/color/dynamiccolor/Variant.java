@@ -13,6 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// Modified for IkiriFrame: package/import names relocated under jp.ni10.ikiriframe.color.
+// Color algorithms are unchanged; original Apache-2.0 license retained.
+
 package jp.ni10.ikiriframe.color.dynamiccolor;
 
 /** Themes for Dynamic Color. */

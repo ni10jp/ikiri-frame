@@ -1,3 +1,9 @@
+IkiriFrame original application code: Copyright (c) 2026 ni10jp. MIT License.
+See IkiriFrame-MIT.txt. This grant covers the original application code,
+tests, build configuration, scripts and documentation. It does not relicense
+third-party code, fonts, icons, images or 3D models.
+Scope: https://github.com/ni10jp/ikiri-frame/blob/main/LICENSING.md
+
 Mochiy Pop One and Google Sans Flex: SIL Open Font License 1.1.
 See the accompanying OFL files.
 
@@ -5,6 +11,39 @@ Material Symbols (upload, add, delete, check, check_circle: Rounded, weight 600;
 (arrow_back, check, close, settings, chevron_right): Copyright Google. Apache License 2.0.
 https://github.com/google/material-design-icons
 https://www.apache.org/licenses/LICENSE-2.0
+Changes: SVG icon paths converted to Android VectorDrawable resources,
+including viewport translation, sizing and theme-driven tinting.
+
+AndroidX and Jetpack Compose: Copyright The Android Open Source Project.
+Material Components for Android: Copyright Google and contributors.
+Apache License 2.0. Includes the resolved AndroidX support/runtime libraries.
+https://android.googlesource.com/platform/frameworks/support/
+https://github.com/material-components/material-components-android
+
+Kotlin standard library, Android/Parcelize runtimes, kotlinx.coroutines,
+kotlinx.serialization, JetBrains annotations, Compose Multiplatform and
+AndroidX Multiplatform: Copyright JetBrains and contributors. Apache License 2.0.
+https://github.com/JetBrains/kotlin
+https://github.com/Kotlin/kotlinx.coroutines
+https://github.com/Kotlin/kotlinx.serialization
+https://github.com/JetBrains/java-annotations
+https://github.com/JetBrains/compose-multiplatform
+https://github.com/JetBrains/compose-multiplatform-core
+
+Okio: Copyright Square and contributors. Apache License 2.0.
+https://github.com/square/okio
+Guava ListenableFuture and Error Prone annotations: Copyright Google and
+contributors. Apache License 2.0.
+https://github.com/google/guava
+https://github.com/google/error-prone
+JSpecify annotations: Copyright The JSpecify Authors. Apache License 2.0.
+https://github.com/jspecify/jspecify
+Poko annotations: Copyright Drew Hamilton. Apache License 2.0.
+https://github.com/drewhamilton/Poko
+See Apache-2.0.txt for these libraries' license text.
+
+Gradle wrapper (source distribution/build tooling): Copyright the original
+Gradle authors. Apache License 2.0. https://github.com/gradle/gradle
 
 Material Color Utilities: Copyright Google LLC. Apache License 2.0.
 https://github.com/material-foundation/material-color-utilities
@@ -33,16 +72,30 @@ Google LLC and other OpenJDK contributors. GPL version 2 with the Classpath Exce
 https://github.com/google/desugar_jdk_libs
 Unmodified library, processed by Android's standard core-library desugaring.
 Corresponding source: https://github.com/google/desugar_jdk_libs/tree/73170c3
+Source package (including upstream build scripts) for the published v1.4.60 APK:
+https://github.com/ni10jp/ikiri-frame/releases/download/v1.4.60/ikiri-frame-1.4.60-desugar-source.zip
 See DesugarJdkLibs-GPL-2.0-with-Classpath-Exception.txt and
-DesugarJdkLibs-Assembly-Exception.txt for the license texts.
+DesugarJdkLibs-Assembly-Exception.txt for the license texts, and
+DesugarJdkLibs-Additional-License-Info.txt for the upstream licensing notes.
+
+desugar_jdk_libs_configuration 2.1.5 and R8 runtime support:
+Copyright (c) 2016, the R8 project authors. BSD 3-Clause License.
+https://r8.googlesource.com/r8/
+Includes conversion helpers used by core-library desugaring.
+See R8-BSD-3-Clause.txt for the complete copyright notice and license text.
 
 App icon foreground (U+1F929, star-struck): Noto 3D Emoji, Google LLC.
-Source: https://github.com/googlefonts/noto-emoji/tree/main/3D
-Image resources are licensed under Apache License 2.0 according to the
-upstream README: https://github.com/googlefonts/noto-emoji#license
+Source: https://github.com/googlefonts/noto-emoji/tree/d6a792cb12e3eb7224f4fbf13173a0dded455651/3D/png
+Upstream licensing statements are inconsistent: its README describes most
+image resources as Apache-2.0, but the repository's root LICENSE is OFL-1.1
+and there is no separate LICENSE under 3D/png at the revision above.
+https://github.com/googlefonts/noto-emoji/blob/d6a792cb12e3eb7224f4fbf13173a0dded455651/README.md#license
+https://github.com/googlefonts/noto-emoji/blob/d6a792cb12e3eb7224f4fbf13173a0dded455651/LICENSE
+Both license texts and Google's attribution are retained here; this notice
+does not resolve the upstream inconsistency or relicense the artwork.
 The emoji artwork is retained; launcher variants resize it and composite it
 over a rainbow background.
-See Apache-2.0.txt for the license text.
+See Apache-2.0.txt and NotoEmoji-OFL.txt for the license texts.
 
 Themed monochrome app icon: outlined from the Noto Emoji font, Google LLC.
 Source: https://fonts.google.com/noto/specimen/Noto+Emoji

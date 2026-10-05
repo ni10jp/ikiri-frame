@@ -1,3 +1,5 @@
+<!-- Copyright Google. Apache-2.0; see assets/licenses/Apache-2.0.txt.
+     Modified for IkiriFrame: converted to Android VectorDrawable, sized and themed. -->
 <!-- Material Symbols Rounded, wght 600, FILL 1, opsz 24.
 Source: https://github.com/google/material-design-icons/blob/master/symbols/web/check/materialsymbolsrounded/check_wght600fill1_24px.svg -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"

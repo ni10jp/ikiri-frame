@@ -36,6 +36,8 @@
 
 ## 謝辞・ライセンス
 
+本体コード：[MIT](LICENSE)。外部コード・素材：各ライセンス。[適用範囲](LICENSING.md)。
+
 [出典・クレジット](app/src/main/assets/licenses/NOTICE.txt) / [ライセンス一覧](app/src/main/assets/licenses)
 
 ---
